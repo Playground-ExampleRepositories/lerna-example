@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\solecold\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add lerna
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\solecold\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Amazon\AWSCLI\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Java\jre1.8.0_341\apache-maven-3.8.6\bin;C:\Users\solecold\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\solecold\AppData\Local\Programs\Python\Python310;C:\Users\solecold\AppData\Local\Microsoft\WindowsApps;C:\Users\solecold\AppData\Roaming\npm;C:\Users\solecold\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\solecold\.dotnet\tools;C:\Users\solecold\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://userway-384064702811.d.codeartifact.us-west-2.amazonaws.com/npm/userway-npm/lerna: Unauthenticated: request used expired credentials. Please renew your credentials.
+      at Request.params.callback [as _callback] (C:\Users\solecold\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\solecold\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\solecold\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at Gunzip.<anonymous> (C:\Users\solecold\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at Gunzip.emit (node:events:527:28)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "lerna-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
