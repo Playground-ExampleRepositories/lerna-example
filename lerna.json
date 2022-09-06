@@ -3,5 +3,6 @@
   "useNx": true,
   "useWorkspaces": true,
   "version": "independent",
-  "npmClient": "yarn"
+  "npmClient": "yarn",
+  "registry": "https://registry.npmjs.org/"
 }
