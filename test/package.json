@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "dir-b-lerna-test": "^1.0.2",
-    "dir-a-lerna-test": "^1.0.5"
+    "dir-a-lerna-test": "^1.0.8-alpha.0",
+    "dir-b-lerna-test": "^1.0.2"
   }
 }
