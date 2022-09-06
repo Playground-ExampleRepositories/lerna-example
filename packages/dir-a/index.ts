@@ -7,6 +7,7 @@ import { sum } from 'dir-b-lerna-test';
 // change 5
 // change 6
 // change 7
+// change 8
 export const modifiedSum = () => {
     return sum(5);
 }
