@@ -10,6 +10,7 @@ const hash_sum_1 = __importDefault(require("hash-sum"));
 // change 3
 // change 4
 // change 5
+// change 6
 const sum = (number) => {
     return (0, hash_sum_1.default)([number || 15]);
 };
