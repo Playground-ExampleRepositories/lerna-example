@@ -11,7 +11,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "dir-a-lerna-test": "^1.0.8-alpha.5"
+    "dir-a-lerna-test": "1.0.8-alpha.5"
   },
   "devDependencies": {
     "@types/node": "^18.7.14",
