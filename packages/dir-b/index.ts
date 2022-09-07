@@ -7,6 +7,7 @@ import hashSum from 'hash-sum'
 // change 5
 // change 6
 // change 7
+// change 8
 export const sum = (number?: number) => {
     return hashSum([number || 15]);
 }
