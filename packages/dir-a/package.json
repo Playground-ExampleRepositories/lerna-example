@@ -1,6 +1,6 @@
 {
   "name": "dir-a-lerna-test",
-  "version": "1.0.8-alpha.4",
+  "version": "1.0.8-alpha.5",
   "files": [
     "build/**/*"
   ],
@@ -11,7 +11,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "dir-b-lerna-test": "1.0.6-alpha.1"
+    "dir-b-lerna-test": "^1.0.6-alpha.2"
   },
   "devDependencies": {
     "@types/node": "^18.7.14",
